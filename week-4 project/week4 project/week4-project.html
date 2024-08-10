@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List App</title>
+    <link rel="stylesheet" href="week4-project.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping List</h1>
+        <div class="add-item">
+            <input type="text" id="itemName" placeholder="Item name">
+            <input type="text" id="itemCategory" placeholder="Category">
+            <input type="number" id="itemPriority" placeholder="Priority" min="1" max="5">
+            <button id="addItemBtn">Add Item</button>
+        </div>
+        <div class="controls">
+            <select id="filterBy">
+                <option value="all">All</option>
+                <option value="purchased">Purchased</option>
+                <option value="unpurchased">Unpurchased</option>
+            </select>
+            <select id="sortBy">
+                <option value="name">Sort by Name</option>
+                <option value="priority">Sort by Priority</option>
+            </select>
+        </div>
+        <ul id="shoppingList"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

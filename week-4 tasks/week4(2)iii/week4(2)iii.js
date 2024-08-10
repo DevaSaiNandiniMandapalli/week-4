@@ -1,0 +1,14 @@
+let a = 10;
+let b = 5;
+let sum = a + b;
+console.log("Addition:", sum); 
+let difference = a - b;
+console.log("Subtraction:", difference); 
+let product = a * b;
+console.log("Multiplication:", product); 
+let quotient = a / b;
+console.log("Division:", quotient); 
+let remainder = a % b;
+console.log("Modulus:", remainder); 
+let power = a ** b;
+console.log("Exponentiation:", power); 
